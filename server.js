@@ -25,6 +25,6 @@ app.get("/api/test", function (req, res) {
 
 
 // listen for requests :)
-var listener = app.listen(process.env.port, function () {
+var listener = app.listen(process.env.PORT, function () {
   console.log('Your app is listening on port ' + listener.address().port);
 });
